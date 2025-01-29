@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #454647;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #96C2DB, #E5EDF1, #FFFFFF);
+  color: #454647;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.4em 1.5em;
+  font-size: 1.5em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #52A5B8;
+  color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  box-shadow: #489eb166 0px 0px 12px;
+}
+
+input {
+  font-size: 1.5em;
+  border: 1px solid #bfbfbf;
+  border-radius: 4px;
+  padding: 0.6em 1.2em;
+  width: 40%;
+}
+
+input:hover,
+input:focus  {
+  box-shadow: #489eb166 0px 0px 12px;
+  border: 1px solid #489eb1;
+  outline: none
+}
+
