@@ -24,7 +24,7 @@ function App() {
     <div>
       <h1>Calculadora de la serie</h1>
       <img className='img' src={serie} alt="Imagen de serie a calcular" />
-      <p>Este aplicativo calcula el valor de la serie en el n-ésimo témino. Esta compuesta de tres valores:</p>
+      <p>Este aplicativo calcula el valor de la serie en el n-ésimo término. Está compuesta de tres valores:</p>
       <div className='list'>
         <ul>
           <li>
