@@ -5,8 +5,6 @@ interface ResultadoProps {
 }
 
 const Result: React.FC<ResultadoProps> = ({ result }) => {
-    console.log(result);
-    
   return (
     <div>
       {result !== null && !isNaN(result) ? (

@@ -3,13 +3,13 @@ import { Serie } from '../utils/Serie';
 
 interface CalculateProps {
   n: number;
-  onResult: (resultado: number) => void;
+  onResult: (result: number) => void;
 }
 
 const Calculate: React.FC<CalculateProps> = ({ n, onResult }) => {
   React.useEffect(() => {
-    const resultado = Serie.calculateSerie(n);
-    onResult(resultado);
+    const result = Serie.calculateSerie(n);
+    onResult(result);
   }, [n, onResult]);
 
   return null;

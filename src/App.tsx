@@ -12,12 +12,12 @@ function App() {
 
   const handleSend = (num: number) => {
     setN(num);
-    setShowResult(false); // Ocultar resultado mientras se recalcula
+    setShowResult(false);
   };
 
   const handleResult = (res: number) => {
     setResult(res);
-    setShowResult(true); // Mostrar resultado después de calcular
+    setShowResult(true);
   };
 
   return (

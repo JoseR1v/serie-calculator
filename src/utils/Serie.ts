@@ -6,9 +6,7 @@ export class Serie {
       while (primos.length < n) {
         if (primos.every((p) => num % p !== 0)) primos.push(num);
         num++;
-      }
-      console.log(primos[n - 1]);
-      
+      }      
       return primos[n - 1];
     }
 
@@ -16,19 +14,14 @@ export class Serie {
   
     static fibonacci(n: number): number {
         if (n <= 0) return n;
-
         let series = [0, 1];
         for (let i = 2; i < n; i++) {
             series.push(series[i - 1] + series[i - 2]);
-        }
-        console.log(series[n - 1]);
-        
-    
+        }   
         return series[n - 1];
     }
   
     static triangular(n: number): number {
-        
         return (n * (n + 1)) / 2;
     }
   
