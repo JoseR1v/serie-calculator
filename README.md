@@ -25,7 +25,7 @@ Esta aplicación permite calcular el \( n \)-ésimo término de una serie numér
 ***
 Guía para instalar el proyecto.
 ```
-$ git clone https://example.com
+$ git clone https://github.com/JoseR1v/serie-calculator.git
 $ cd ../path/to/the/file
 $ npm install
 $ npm run dev
